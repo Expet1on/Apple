@@ -85,3 +85,10 @@ h2 {
     text-align: center;
     padding: 50px;
 }
+
+
+@media(max-width: 970px) {
+    .headerblock {
+        display: block;
+    }
+}
