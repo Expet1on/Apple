@@ -1,94 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Tinos&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 
 body {
-    background-color: black;
-    margin: 0;
-    margin-top: 37px;
-    font-family: "Poppins";
-    text-decoration: none;
+    margin: 0 auto;
+    background: #000000;
+    border-radius: 5px;
+
 }
 
-
-.logog {
-    padding-left: 61px;
+.container {
+    padding: 0 53px 0 60px;
 }
 
-
-
-.headerblock {
-    background-image: url(img/header-bg.png);
-    z-index: 99;
+.header {
+    background: #313132;
 }
 
-
-
-.head-img {
-    width: 100%;
-    
-}
-
-.navigacia {
+.header-block {
     display: flex;
     justify-content: space-between;
+    margin-top: 37px;
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav {
-    margin-right: 75px;
-    font-size: 20px;
+    display: flex;
+    gap: 0 40px;
+}
+
+.nav-link  {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 600;
-    text-decoration: none;
-    color: aliceblue;
-    transition: color 0.1s linear;
-}
-
-.nav:hover {
-    color: silver;
-}
-
-
-
-.right-side {
-    margin-right: 54px;
-}
-
-.lup {
-    margin-right: 52px;
-    text-decoration: none;
-}
-
-.bag {
-    text-decoration: none;
-}
-
-.main {
-    padding-top: 67px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: center;
-    padding-bottom: 127px;
+    color: #FFFFFF;    
 }
 
-h2 {
+.right-content {
+    display: flex;
+    gap: 0 40px;
+
+}
+
+main {
+    margin-top: 78px;
+}
+
+.main-text {
     position: absolute;
-	top	: 210px;
-	left: 0;
-	width: 100%;
-    color: aliceblue;
+    left: 25%;
+    top: 47%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
     font-size: 128px;
-}
-
-
-.footer {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    line-height: 192px;
     text-align: center;
-    padding: 50px;
-}
-
-
-@media(max-width: 970px) {
-    .headerblock {
-        display: block;
-    }
+    color: #FFFFFF;
 }
