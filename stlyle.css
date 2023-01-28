@@ -39,7 +39,12 @@ a {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF; 
+    transition: opacity .2s ease;   
+}
+
+.nav-link:hover {
+    color: #474752;
 }
 
 .right-content {
@@ -63,4 +68,10 @@ main {
     line-height: 192px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.footer-block {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0 30px 0;
 }
